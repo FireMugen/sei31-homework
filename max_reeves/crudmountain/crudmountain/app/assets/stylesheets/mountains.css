@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+	color: black
+}
+
+.cont_opacity {
+	opacity: 0.5;
+}
+
+.thumb {
+	max-height: 10em
+}
+
+.feature {
+	max-width: 100%;
+}
+
+h1, h2 {
+	font-family: 'Anton', sans-serif;
+}
+
+a {
+	text-decoration: none;
+		font-family: 'Anton', sans-serif;
+		color: grey;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+body {
+	background-image: url("mountain2.jpg");
+	background-repeat: repeat;
+	font-size: 20px;
+	text-align: center;
+}
+
+img {
+	border-radius: 2em;
+}
+
+ul {
+		list-style: none;
+		font-family: 'Dokdo', cursive;
+}

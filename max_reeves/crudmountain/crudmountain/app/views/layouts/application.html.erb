@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crud Mountain</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+		<div class="container">
+		<div id="cont_opacity">
+		<nav>
+			<span class="link1"><a href="/mountains">Mountain Home</a></span>
+			<span class="link1"><a class="link1" href="/mountains/new">Add a Mountain</a></span>
+		</nav>
+    <%= yield %>
+		</div>
+		</div>
+  </body>
+</html>
