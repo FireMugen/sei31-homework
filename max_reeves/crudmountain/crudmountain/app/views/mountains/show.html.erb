@@ -1,3 +1,4 @@
+<div class="wrapper">
 <h1><%= @mountain.name %></h1>
 
 <%= image_tag @mountain.image, :class => 'feature' %>
@@ -14,3 +15,4 @@
   	<%= link_to 'Delete Mountain', mountain_path(@mountain.id), :method => 'delete' %>
 	</nav>
 </span>
+</div>
