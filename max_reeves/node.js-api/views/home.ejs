@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css'>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+
+  <body>
+    <% include partials/nav.ejs %>
+    <h1>Send a TXT Message</h1>
+
+    <form action="/sent">
+      <label>
+        <input type="message" name="message" placeholder="Insert Text">
+      </label>
+			<label for="Phone Number">
+				<input type="number" name="number" placeholder="Insert Mobile">
+			</label>
+      <input type="submit" value="Quote Me">
+    </form>
+
+  </body>
+</html>
